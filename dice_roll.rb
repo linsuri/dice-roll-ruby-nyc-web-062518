@@ -4,4 +4,11 @@
 
 def roll
   # code goes here
+  rand(1..6)
 end
+
+def roll_array
+  array_of_numbers = [1, 2, 3, 4, 5, 6]
+  array_of_numbers[rand(array_of_numbers.length)]
+  binding.pry
+end  
