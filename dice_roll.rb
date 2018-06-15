@@ -8,4 +8,7 @@ def roll
 end
 
 def roll_array
-  
+  array_of_numbers = [1, 2, 3, 4, 5, 6]
+  rand(array_of_numbers)
+  binding.pry
+end  
